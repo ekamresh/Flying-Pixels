@@ -2,8 +2,8 @@ addpath('pointclouds')
 addpath('fov')
 addpath('util')
 
-depthImg = imread("C:\Users\ekamr\Desktop\FlyingPixelsData\downsampled_data\oyla_datasets\Chair\zmap_png\oyla_0007.png");
-rgbImg = imread("C:\Users\ekamr\Desktop\FlyingPixelsData\downsampled_data\oyla_datasets\Chair\rgb_jpg\oyla_0007.jpg");
+depthImg = imread("path\to\directory\image");
+rgbImg = imread("path\to\directory\image");
 
 [r, c] = size(depthImg);
 linearIndex = 51663;
